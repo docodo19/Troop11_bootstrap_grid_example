@@ -1,0 +1,16 @@
+.container-main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pb {
+    max-height: 100vh !important;
+}
+
+.home-top {
+    background-color: black;
+}
+
+.panel-box {
+    padding: 0;
+}
