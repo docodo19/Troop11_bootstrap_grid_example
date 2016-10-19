@@ -1,6 +1,6 @@
 namespace bootstrap1 {
 
-    angular.module('bootstrap1', ['ui.router', 'ngResource', 'ui.bootstrap']).config((
+    angular.module('bootstrap1', ['ui.router', 'ngResource', 'ui.bootstrap', 'ngGeolocation']).config((
         $stateProvider: ng.ui.IStateProvider,
         $urlRouterProvider: ng.ui.IUrlRouterProvider,
         $locationProvider: ng.ILocationProvider
@@ -31,6 +31,6 @@ namespace bootstrap1 {
         $locationProvider.html5Mode(true);
     });
 
-    
+
 
 }

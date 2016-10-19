@@ -2,3 +2,13 @@
 <p>
     {{controller.message}}
 </p>
+<hr>
+<h1>
+    Latitude: {{controller.myPosition.latitude}}
+</h1>
+<h1>
+    Longitude: {{controller.myPosition.longitude}}
+</h1>
+
+
+<button type="button" ng-click="controller.getCurrentLocation()">Update Location</button>
